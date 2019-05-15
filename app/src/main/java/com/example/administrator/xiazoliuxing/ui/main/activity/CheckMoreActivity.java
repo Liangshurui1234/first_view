@@ -38,8 +38,8 @@ public class CheckMoreActivity extends AppCompatActivity implements View.OnClick
     }
 
     private void getInitData() {
-        String ss="sm";
-        String mm="nn";
+       int ee=1;
+       int dd=0;
         Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
